@@ -43,11 +43,11 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
         onChange={handleChange}
         required
       />
-      <label>code</label>
+      <label>Supplier Name</label>
       <textarea
-        name="code"
+        name="Supplier Name"
         rows="4"
-        value={formData.code}
+        value={formData["Supplier Name"]}
         onChange={handleChange}
         required
       />
